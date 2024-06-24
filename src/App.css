@@ -4,17 +4,20 @@
   text-align: center;
 }
 
-
 #drum-machine > div {
   padding: 2rem;
 }
 
-#display{
+#display {
   display: grid;
-  grid-template: 1fr / repeat(3,1fr);
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
   gap: 1rem;
 }
 
-.drum-pad{
-  
+#display > div {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #1a1a1a;
 }
