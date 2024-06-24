@@ -27,10 +27,10 @@ function App() {
             playSound={playSound}
           />
         ))}
-        <>
-          <p>Key selected: {selectedKey}</p>
-        </>
       </div>
+      <>
+        <p>Key selected: {selectedKey}</p>
+      </>
     </div>
   );
 }
